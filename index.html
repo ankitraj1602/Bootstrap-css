@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Fighter11</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--Font awesome cdn-->
+  <script src="https://kit.fontawesome.com/e3922bef76.js" crossorigin="anonymous"></script>
+
+
+  <!--Links and style for montserrat fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+  <section id="title">
+
+    <!-- Nav Bar -->
+    <div class="container-fluid"> <!-- Container is used to produce responsive layout.-->
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href="">Fighter11</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item">
+              <a class="nav-link nav-item" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-item" href="#cta">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-item" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-item" href="#pricing">Pricing</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class=col-lg-6>
+          <h1>Play Fantasy Sports Like Never Before.</h1>
+          <button class="btn btn-dark btn-lg download-button" type="button"><i class="fa-brands fa-apple"></i>
+            Download</button>
+          <button class="btn btn-lg btn-outline-light download-button" type="button"><i
+              class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/cricket.png" alt="iphone-mockup">
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <div class="row">
+
+      <div class="col-lg-4 icon-features">
+        <div><i class="fa-regular fa-circle-check fa-3x feature-icons"></i></div>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, and its all free.</p>
+
+      </div>
+
+      <div class="col-lg-4 icon-features">
+        <div><i class="fa-solid fa-bullseye  fa-3x feature-icons"></i></div>
+        <h3>Make Unlimited Teams</h3>
+        <p>We have all the players, at the greatest ease.</p>
+
+      </div>
+
+      <div class="col-lg-4 icon-features">
+        <div><i class="fa-solid fa-heart  fa-3x feature-icons"></i></div>
+        <h3>Earnings Unlimited.</h3>
+        <p>Find the love of your game and make real money.</p>
+      </div>
+
+
+    </div>
+
+
+
+
+  </section>
+
+
+  <!-- Testimonials will use the carousel in bootstrap-->
+
+  <section id="testimonials">
+
+    <div id="testinomialCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer have to pay money for fantasy Sports. I've found the best app over the world.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Javed, New Delhi</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class="testimonial-text">I have earned so much money that its become my new job. And its all free,</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Vinod, Phulera</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testinomialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testinomialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+
+    <img class="press-images" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-images" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-images" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-images" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing will use cards in bootstrap.-->
+
+  <section id="pricing">
+
+
+    <h2>A Plan for Every Fantasy Maniac Needs</h2>
+    <p>Simple and affordable price plans for you.</p>
+
+
+    <!--To make the cards responsive, we can use the grid system -->
+    <!--Here we will make 3 cards -large screen, 2 for medium screen , 1 for small and below-->
+
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6 pricing-cards">
+        <div class="card">
+          <div class="card-header">
+            <h3>Amateur</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Teams Per Day</p>
+            <p>With Advertisements.</p>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign Up</a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-4 col-md-6 pricing-cards">
+        <div class="card">
+          <div class="card-header">
+            <h3>Semi Pro</h3>
+          </div>
+          <div class="card-body">
+            <h2>Rs 49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Teams</p>
+            <p>One Advertisement Per Team</p>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Sign Up</a>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="col-lg-4 pricing-cards">
+        <div class="card">
+          <div class="card-header">
+            <h3>Master</h3>
+          </div>
+          <div class="card-body">
+            <h2>Rs 99 / mo</h2>
+            <p>Pirority Choices</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Teams</p>
+            <p>No Advertisement</p>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Sign Up</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3>Find the True Love of Your Fantasy Dreams.</h3>
+    <button class="btn btn-dark btn-lg download-button" type="button"><i class="fa-brands fa-apple"></i>
+      Download</button>
+    <button class="btn btn-lg btn-outline-light download-button" type="button"><i
+      class="fa-brands fa-google-play"></i> Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <div >
+      <i class="fa-brands fa-twitter footer-icons"></i>
+      <i class="fa-brands fa-facebook footer-icons"></i>
+      <i class="fa-brands fa-instagram footer-icons"></i>
+      <i class="fa-regular fa-envelope footer-icons"></i>
+
+    </div>
+    <p>© Copyright Fighter11</p>
+
+  </footer>
+
+
+</body>
+
+</html>
